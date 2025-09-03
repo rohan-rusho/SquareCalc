@@ -1,1 +1,102 @@
-SquareCalc 🔢OverviewSquareCalc is a simple and stylish Android calculator application designed for quick and easy calculations involving squares. Whether you need to find the square of a number, its square root, or the area of a square, this app provides a clean and straightforward user interface to get the job done.The app features a modern blue theme with interactive buttons that provide visual feedback when pressed, as seen in the custom drawable styles.Features•Calculate the Square: Enter a number to find its square (x²).•Calculate Square Root: Find the square root (√x) of any number.•Calculate Area: Input the side length of a square to calculate its area.•User-Friendly UI: A clean, intuitive layout that is easy to navigate.•Stylish Design: Features custom-styled buttons with a blue gradient and press-state feedback for a better user experience.•Clear Results: Displays both the input and the result clearly on the screen.Screenshots(It's highly recommended to add screenshots of your app here to give a visual preview.)| Main Screen                               | Result Screen                              | | ----------------------------------------- | ------------------------------------------ | | [Insert screenshot of the main UI here] | [Insert screenshot of a calculation here] |<!-- Example: --> <!-- <img src="docs/screenshot1.png" width="250"> -->Getting StartedPrerequisites•Android Studio (e.g., Bumblebee | 2021.1.1 or newer)•Android SDK (Minimum API level 21 or higher)•Java Development Kit (JDK)Installation & Setup1.Clone the repository:Shell Scriptgit clone https://[your-repository-url]/SquareCalc.git(Replace [your-repository-url] with the actual URL if you host this on GitHub, etc.)2.Open in Android Studio:•Open Android Studio.•Click on File > Open... or Open an Existing Project.•Navigate to the cloned SquareCalc directory and select it.3.Build the project:•Android Studio will automatically sync the Gradle project.•Build the project by clicking Build > Make Project or clicking the green hammer icon.4.Run the app:•Select an emulator or connect a physical Android device.•Click the "Run 'app'" button (green play icon).Project Structure•app/src/main/java/.../: Contains the Kotlin/Java source code for the application logic.•app/src/main/res/: Contains all non-code resources.•layout/: XML files for UI screens (e.g., activity_main.xml).•drawable/: Contains all image assets and custom XML drawables.•blue_gradient.xml: A selector drawable that defines the visual style and pressed-state for the calculator buttons.•values/: XML files for strings, colors, dimensions, and styles.Technologies Used•Language: Kotlin or Java•UI: Android XML Layouts•Styling: Custom Drawable Selectors for interactive UI elements.•Build System: GradleLicense[Specify your license here. If you haven't chosen one, the MIT license is a popular choice.]Example: This project is licensed under the MIT License - see the LICENSE.md file for details.Contact[Your Name/Alias] - [your-email@example.com] (Optional)
+# SquareCalc 🔢
+
+**SquareCalc** is a simple, elegant Android calculator focused on square-related calculations. Instantly compute the square of a number, its square root, or the area of a square—using a stylish, user-friendly interface.
+
+---
+
+## 🚀 Overview
+
+SquareCalc offers:
+
+- **Calculate the Square:** Enter a number and get its square (*x²*).
+- **Calculate Square Root:** Instantly find the square root (*√x*) of any number.
+- **Calculate Area:** Input the side length to calculate the area of a square.
+- **User-Friendly UI:** Clean, intuitive layout for effortless usage.
+- **Stylish Design:** Modern blue theme, custom-styled buttons with gradient and interactive feedback.
+- **Clear Results:** Both input and output are displayed prominently.
+
+---
+
+## 📱 Screenshots
+
+| Main Screen | Result Screen |
+| ----------- | ------------ |
+| ![Main UI](docs/screenshot1.png) | ![Calculation Example](docs/screenshot2.png) |
+
+*Add your own screenshots in the `docs/` folder and update the paths above.*
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- **Android Studio** (2021.1.1 Bumblebee or newer recommended)
+- **Android SDK** (Minimum API level 21+)
+- **Java Development Kit** (JDK)
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/[your-username]/SquareCalc.git
+   ```
+   *(Replace `[your-username]` with your GitHub username)*
+
+2. **Open in Android Studio:**
+   - Launch Android Studio.
+   - Go to **File > Open...** and select the cloned `SquareCalc` directory.
+
+3. **Build the project:**
+   - Android Studio will sync Gradle automatically.
+   - Build using **Build > Make Project** or the green hammer icon.
+
+4. **Run the app:**
+   - Select an emulator or connect a physical device.
+   - Click the green "Run" play button.
+
+---
+
+## 📁 Project Structure
+
+```
+SquareCalc/
+├─ app/
+│  ├─ src/
+│  │  ├─ main/
+│  │  │  ├─ java/         # App source code
+│  │  │  ├─ res/
+│  │  │  │  ├─ layout/    # UI XML files (e.g., activity_main.xml)
+│  │  │  │  ├─ drawable/  # Images and custom drawables (e.g., blue_gradient.xml)
+│  │  │  │  ├─ values/    # Strings, colors, dimensions, styles
+├─ docs/
+│  ├─ screenshot1.png
+│  ├─ screenshot2.png
+```
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- **Language:** Kotlin or Java
+- **UI:** Android XML Layouts
+- **Styling:** Custom Drawable Selectors (interactive, animated buttons)
+- **Build System:** Gradle
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
+See [`LICENSE.md`](LICENSE.md) for details.
+
+---
+
+## 📬 Contact
+
+[Your Name/Alias]  
+[your-email@example.com] *(optional)*
+
+---
+
+*SquareCalc is a fast, reliable, and beautiful calculator for squares—try it now!*
