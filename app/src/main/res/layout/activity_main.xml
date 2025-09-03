@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_background"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Square Finder"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="44dp"/>
+
+        <!-- Height Input -->
+        <EditText
+            android:id="@+id/heightInput"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rounded_textview"
+            android:hint="Enter Height"
+            android:inputType="numberDecimal"
+            android:padding="12dp" />
+
+        <!-- Weight Input -->
+        <EditText
+            android:id="@+id/weightInput"
+            android:layout_width="match_parent"
+            android:hint="Enter Weight"
+            android:layout_height="72dp"
+            android:background="@drawable/rounded_textview"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+          />
+
+        <!-- Optional Input -->
+        <EditText
+            android:id="@+id/optionalInput"
+            android:layout_width="match_parent"
+
+            android:hint="Enter Depth (optional)"
+            android:layout_height="72dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_textview"
+            android:padding="12dp"
+            android:layout_marginBottom="44dp"
+           />
+
+        <!-- Calculate Button -->
+
+        <!-- Result Display -->
+
+        <!-- Share Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/calculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginBottom="24dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:background="@drawable/blue_gradient"
+            android:text="Calculate" />
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Your result will appear here"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Share Result"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
